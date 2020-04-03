@@ -1,0 +1,33 @@
+Web Teknolojileri Proje Ödevi Bilgi Dökümani
+********************************************
+
+Öğrenci Adı:    Selinnur Göl
+Numara:         B191210381
+Grup:           1A
+Proje Adı:      Ereğli ve Ben
+Proje Konusu:   Konya'nın ilçesi olan memleketim Ereğli'yi ve kendimi anlatan bir websitesi oluşturmak.
+
+********************************************
+
+
+
+PROJEDE PLANLANANLAR
+--------------------------------------------
+
+    +   Html5, Css3, JavaScript ve PHP teknolojileri kullanılacaktır.
+    +   Bootstrap, Fontawesome gibi css kütüphaneleri kullanılacaktır.
+    +   GitHub platformu kullanılacaktır.
+
+--------------------------------------------
+
+
+PROJE İLERLEME SENARYOSU
+-------------------------------------------
+
+    +   Öncelikle boş bir html sayfası oluşturuldu.
+    +   Gerekli tanımlamalar yapıldı. (Bootstrap, Fontawesome, Bootstrap Özelleştirme, Font, style.css)
+    +   https://themestr.app sitesinden renk kodu, font, gibi ayarlamalar içeren css indirildi.
+    +   GitHub'da yeni repository oluşturuldu ve gerekli ayarlamalarla commitler yapıldı.
+
+-------------------------------------------
+
