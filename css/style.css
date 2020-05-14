@@ -1,5 +1,13 @@
 * {
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -12,4 +20,132 @@ body {
 
 .shadow {
     box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .25) !important;
+}
+
+.kapsayici {
+    height: 500px;
+    width: 500px;
+    background: red;
+}
+
+.profile-container {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.top-area {
+    height: 175px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.top-area .profile-bg {
+    width: 100%;
+    margin-top: -70px;
+}
+
+.bottom-area {
+    position: relative;
+}
+
+.profile-avatar {
+    position: absolute;
+    top: -87px;
+    left: 32px;
+    height: 175px;
+    width: 175px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-img {
+    height: 100%;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    padding: 16px 32px;
+}
+
+.text-area h1 {
+    font-weight: 400;
+}
+
+.text-area p {
+    width: 75%;
+    border-top: 1px dashed #ff7e67;
+    padding: 16px 0;
+}
+
+.box {
+    border-radius: 8px;
+    padding: 16px 32px;
+    background: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.carousel, .carousel-inner, .carousel-item {
+    height: 500px;
+    border-radius: 8px;
+}
+
+.carousel-item img {
+    border-radius: 8px;
+}
+
+.text-area-center {
+    align-items: center;
+    text-align: center;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.form-control {
+    border: 1px solid #ff7e67;
+    border-radius: 2rem !important;
+}
+
+.login-ortala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel, .carousel-inner, .carousel-item {
+        height: 250px;
+    }
+    .h-400 {
+        height: 250px;
+    }
+    .profile-container {
+        height: calc(100vh - 64px);
+        ;
+    }
+    .profile-avatar {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .text-area {
+        align-items: center;
+        text-align: center;
+        padding: 100px 8px 32px 8px;
+    }
 }
