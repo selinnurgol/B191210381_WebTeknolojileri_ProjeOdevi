@@ -16,20 +16,41 @@ else {
         <link rel="stylesheet" href="css/fontawesome.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/bootstrap-customize.css">
+        <link rel="stylesheet" href="/css/bootstrap-customize.css">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
 
 
     </head>
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="home.php">MEMLEKETİM</a>
                 </div>
-
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="home.php">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.php#ozgecmisim">Özgeçmişim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.php#sehrim">Şehrim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.php#mirasimiz">Mirasımız</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.php#iletisim">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -106,16 +127,24 @@ else {
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/kwangjin.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.eregli.bel.tr/tr-407946456-a407517562/Kwangjin-Parki" target="_blank">
+                            <img src="img/kwangjin.jpg" class="d-block w-100">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/ivriz.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.eregli.bel.tr/tr-407946456-a407962410/Ivriz-Kaya-Aniti" target="_blank">
+                            <img src="img/ivriz.jpg" class="d-block w-100">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/muze.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.eregli.bel.tr/tr-407946456-a407964460/Eregli-Muzesi" target="_blank">
+                            <img src="img/muze.jpg" class="d-block w-100">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/uluCami.jpg" class="d-block w-100" alt="...">
+                        <a href="http://www.eregli.bel.tr/tr-407946456-a407955056/Ulu-Cami" target="_blank">
+                            <img src="img/uluCami.jpg" class="d-block w-100">
+                        </a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -210,7 +239,7 @@ else {
         </div>
     </div>
 
-    <div class="container mb-3">
+    <div class="container mb-3" id="mirasimiz">
         <div class="profile-container h-auto" style="margin: 0;">
             <div class="top-area h-400">
                 <img class="profile-bg" src="img/mirasimiz.jpg" alt="">
@@ -231,7 +260,7 @@ else {
         </div>
     </div>
 
-    <div class="container mb-3">
+    <div class="container mb-3" id="iletisim">
         <div class="box">
             <h4 class="text-warning">İLETİŞİM</h4>
             <form action="iletisim2.php" method="post">
@@ -253,6 +282,25 @@ else {
                 </div>
             </form>
         </div>
+    </div>
+    <div class="footer-area bg-success">
+        <footer class="container">
+            <div class="copyright">©2020 Selinnur Göl - Tüm Hakları Saklıdır.</div>
+            <div class="social-media">
+                <div class="items">
+                    <a href="https://tr-tr.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="items">
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="items">
+                    <a href="https://www.instagram.com/?hl=tr"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="items">
+                    <a href="https://tr.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
     </div>
 
 

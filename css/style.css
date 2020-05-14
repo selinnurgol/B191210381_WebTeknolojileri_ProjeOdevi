@@ -12,6 +12,7 @@ ul, li {
 
 body {
     background: #fafafa;
+    padding-top: 70px;
 }
 
 .rightFloat {
@@ -127,8 +128,39 @@ body {
     align-items: center;
     height: 100vh;
 }
+.footer-area{
+    padding: 8px 16px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .items a i {
+    margin-left: 16px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-media .items a i:hover {
+    color: #ff7e67;
+}
 
 @media only screen and (max-width: 1024px) {
+    body {
+        background: #fafafa;
+        padding-top: 110px;
+    }
     .carousel, .carousel-inner, .carousel-item {
         height: 250px;
     }
@@ -136,8 +168,7 @@ body {
         height: 250px;
     }
     .profile-container {
-        height: calc(100vh - 64px);
-        ;
+        height: auto;
     }
     .profile-avatar {
         left: 50%;
